@@ -13,7 +13,7 @@ BookSchema = new mongoose.Schema({
         trim: true,
         default: 'other'
     },
-    desccription: {
+    description: {
         type: String,
         minlength: 1,
         trim: true,
